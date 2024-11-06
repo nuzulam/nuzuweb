@@ -1,0 +1,39 @@
+
+
+/*=====================================
+  Version Start
+=======================================*/
+
+body.version-1-3-3 {
+
+
+}
+
+
+
+/*=====================================
+  Feed View Start
+=======================================*/
+.feed-view {
+  /*=== Label,Search,Archive View Start Sheet ===*/
+  &:is(.label-view, .search-view, .archive-view) {
+  
+  } /*=== Label,Search,Archive View Css End ===*/
+  
+  /*=== Error View Start Sheet ===*/
+  &.error-view {
+    
+  } /*=== Error View Css End ===*/
+}
+
+
+
+
+
+/*=====================================
+  Item View Start
+=======================================*/
+
+.item-view {
+
+}
