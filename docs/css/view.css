@@ -77,7 +77,7 @@ top: 60px;
           width: 45px;
           height: 45px;
           }
-        & > button {
+        & > div label {
           border: none;
           outline: none;
           width: 40px;
@@ -89,8 +89,8 @@ top: 60px;
           border-radius: 5px;
           overflow: hidden;
           & svg {
-            width: 25px;
-            height: 25px;
+            width: 30px;
+            height: 30px;
             }
           }
       }
