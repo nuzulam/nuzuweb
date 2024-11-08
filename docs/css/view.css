@@ -89,10 +89,12 @@ body.version-1-3-3 {
       z-index: 123;
       width: 300px;
       max-width: 300px;
+      margin-top: 60px;
+      height: calc(100% - 60px);
       position: fixed;
       background: transparent;
       box-sizing: border-box;
-      border: 0px #ddd solid;
+      border: none;
       transition: all 0.5s ease-in-out;
       overflow: hidden;
       display: flex;
@@ -111,7 +113,8 @@ body.version-1-3-3 {
         display: block;
         z-index: 10;
         margin: 0;
-        transition: 0.4s all;
+	padding: 0;
+        transition: 0.5s all;
         position: relative;
       /*transition: all 1s ease-in-out;*/
         background-color: var(--bg-bars);
