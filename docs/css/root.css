@@ -1,1 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lateef:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Stint+Ultra+Expanded&family=Ultra&display=swap');
+/*== Svg Logos Root Color==*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500&family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap");
 
+:root {
+  --bg-trans: transparent;
+  --font-ultra: 'Ultra' , sans-serif;
+  --font-roboto: 'Roboto' , sans-serif;
+  --font-dm: 'DM sans' , sans-serif;
+  --ff-lateef: 'Lateef' , cursive;
+  --font-lateef: 'Lateef' , cursive;
+  --font-inter: 'Inter' , sans-serif;
+  --font-italic: 'Playfair Display' , serif;
+  }
+.theme-light {
+  --bg-bars: #EEF5FF;
+  --bg-view: #dae2eb;
+  --bg-view-hover: #aabbcc;
+  --bg-line: #6a76a8;
+  
+  
+  --text-defa: #111;
+  --text-title: #1C274C;
+  --post-icon: #1C274C;
+  }
+.theme-dark {
+  --bg-bars: #030B18;
+  --bg-view: #2c3e50;
+  --bg-view-hover: #112233;
+  --bg-line: #cadced;
+  
+  
+  
+  --text-defa: #fff;
+  --text-title: #D9E7FD;
+  --post-icon: #D9E7FD;
+  }
