@@ -13,6 +13,7 @@
   --font-italic: 'Playfair Display' , serif;
   }
 .theme-light {
+  --bg-body: #EEF5FF;
   --bg-bars: #EEF5FF;
   --bg-view: #dae2eb;
   --bg-view-hover: #aabbcc;
@@ -24,6 +25,7 @@
   --post-icon: #1C274C;
   }
 .theme-dark {
+  --bg-body: #030B18;
   --bg-bars: #030B18;
   --bg-view: #2c3e50;
   --bg-view-hover: #112233;
