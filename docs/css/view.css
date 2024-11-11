@@ -300,7 +300,29 @@ cakra {display:none;}
 /*=====================================
   Item View Start
 =======================================*/
-
 .item-view {
-
+  & .page {
+    & .page_body {
+      & .centered {
+        & .blog-name {
+          
+        }
+        & .centered-bottom {
+          & main.main-container {
+            & .main,& .section,& #page_body {
+              & .blog-posts,& .hfeed,& .container {
+                & .post-outer-container {
+                  & .post-outer {
+                    & .post-wrapper {
+                      background-color: var(--bg-page);
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
