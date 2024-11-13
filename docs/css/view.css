@@ -315,7 +315,54 @@ cakra {display:none;}
                   & .post-outer {
                     & .post-wrapper {
                       background-color: var(--bg-page);
-                    }
+                      & .slide {
+                        & .post {
+                          & .post-title-container {
+                           
+                          }
+                          & .post-header {
+                            display: flex;
+                            flex-direction: column;
+                            padding: 5px 10px;
+                            box-sizing: border-box;
+                            & .post-header-line-1 {
+                              display:none;
+                              & span.post-author{
+                              
+                              }
+                              & span.post-timestamp {
+                                color: var(--text-defa);
+                                font-size: 14px;
+                                font-style: normal;
+                                font-family: -apple-system, BlinkMacSystemFont, serif;
+                                & a.timestamp-link {
+                                  margin-left: 10px;
+                                  padding: 3px 5px;
+                                  font-size: 15px;
+                                  box-sizing: border-box;
+                                  border: 0.5px var(--bg-line) solid;
+                                  & .published {
+				    color: #767;
+                                    font-family: var(--font-italic);     
+                                  }
+                                }
+                              }
+                            }
+                          }
+                          & .post-body {
+                           
+                          }
+                          & .post-footer.container {
+                            & .post-footer-line-1{
+                              display: none;
+                            }
+                            & .post-footer-line-2{
+                              display: none;
+                            }
+                          }
+                        }
+                      }
+		    }
                   }
                 }
               }
