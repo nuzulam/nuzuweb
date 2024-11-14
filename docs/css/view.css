@@ -282,15 +282,129 @@ cakra {display:none;}
   Feed View Start
 =======================================*/
 .feed-view {
+  & .page {
+    & .page_body {
+      & .centered {
+        & .blog-name {
+          & .section {
+            & .widget,& .HTML {
+              & .widget-content {
+                 
+              }
+            }
+          }
+        }
+        & .centered-bottom {
+          & main.main-container {
+            & .main,& .section {
+              & .blog-posts,& .hfeed,& .container {
+                display: grid;
+                grid-gap: 10px;
+                margin-top: 10px;
+                margin: 0px;
+                padding: 0px 10px;
+                width: 100%;
+                max-width: 100%;
+                box-sizing: border-box;
+                grid-template-columns: repeat(3, 1fr);
+                align-items: center;
+                justify-items: start;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
   /*=== Label,Search,Archive View Start Sheet ===*/
   &:is(.label-view, .search-view, .archive-view) {
-  
+    & .page {
+      & .page_body {
+        & .centered {
+          & .blog-name {
+            & .section {
+              & .widget,& .HTML {
+                & .widget-content {
+                 
+                }
+              }
+            }
+          }
+          & .centered-bottom {
+            & main.main-container {
+              & .main,& .section {
+                & .blog-posts,& .hfeed,& .container {
+               
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   } /*=== Label,Search,Archive View Css End ===*/
   
   /*=== Error View Start Sheet ===*/
   &.error-view {
-    
+    & .page {
+      & .page_body {
+        & .centered {
+          & .blog-name {
+            & .section {
+              & .widget,& .HTML {
+                & .widget-content {
+                 
+                }
+              }
+            }
+          }
+          & .centered-bottom {
+            & main.main-container {
+              & .main,& .section {
+                & .blog-posts,& .hfeed,& .container {
+               
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   } /*=== Error View Css End ===*/
+  @media (max-width: 1007px) {
+    & .page {
+      & .page_body {
+        & .centered {
+	  & .centered-bottom {
+            & main.main-container {
+              & .main,& .section {
+                & .blog-posts,& .hfeed,& .container {
+		  grid-template-columns: repeat(2, 1fr);
+		}
+	      }
+	    }
+	  }
+	}
+      }
+    }
+  } /* Media 1007px end */
+  @media (max-width: 640px) {
+    & .page {
+      & .page_body {
+        & .centered {
+	  & .centered-bottom {
+            & main.main-container {
+              & .main,& .section {
+                & .blog-posts,& .hfeed,& .container {
+		  grid-template-columns: 1fr;
+		}
+	      }
+	    }
+	  }
+	}
+      }
+    }
+  } /* Media 640px end */
 }
 
 
