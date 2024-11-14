@@ -309,6 +309,73 @@ cakra {display:none;}
                 grid-template-columns: repeat(3, 1fr);
                 align-items: center;
                 justify-items: start;
+		& article.post-outer-container {
+                  margin: 0px;
+                  display: block;
+                  /*background: navy;*/
+                  & .post-outer {
+                    width: 100%;
+                    height: auto;
+                    max-width: 100%;
+                    position: relative;
+                    display: block;
+                    margin: 0px;
+                    box-sizing: border-box;
+                    border-radius: 5px;
+                    border: 0px transparent solid;
+                    background: linear-gradient(to right, var(--cl-lg-A), var(--cl-lg-C));
+                    background-clip: padding-box; 
+                    & .post-wrapper {
+                      max-width: calc(100% - 4px);
+                      margin: 0px;
+                      border-radius: 5px;
+                      border: 2px transparent solid;
+                      background-clip: padding-box; 
+                      & .post {
+                        width: auto;
+			background-color: var(--bg-view);
+                        font-family: var(--font-inter);
+		      /*background: linear-gradient(to right, #ffffff, #aeaaea);*/
+                        padding: 10px 7px;
+                        box-sizing: border-box;
+                        & .post-title-container {
+                          & .post-title,& .entry-title {
+                            & .snippet-container,& .r-snippet-container {
+                              & .r-snippetized {
+                                color: var(--text-title);
+                                font-family: var(--font-inter);
+                              }
+                            }
+                          }
+                        }
+                        & .post-header {
+                        
+                          & .post-header-line-1 {
+                            & .post-author {
+                              margin-right: 10px;
+                              & .post-author-label {
+        
+                              }
+                              & .fn {
+                                & a.g-profile {
+                                  & span {
+            
+                                  }
+                                }
+                              }
+                            }
+                            & .post-timestamp {
+                              font-style: normal;
+                              & .timestamp-link {
+                                color: red;
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
               }
             }
           }
