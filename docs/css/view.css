@@ -307,7 +307,7 @@ cakra {display:none;}
                 max-width: 100%;
                 box-sizing: border-box;
                 grid-template-columns: repeat(3, 1fr);
-                align-items: center;
+                align-items: start;
                 justify-items: start;
 		& article.post-outer-container {
                   margin: 0px;
