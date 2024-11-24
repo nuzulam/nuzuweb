@@ -354,7 +354,7 @@ cakra {display:none;}
                             & .post-author {
                               margin-right: 10px;
                               & .post-author-label {
-        
+                                text-transform: capitalize;
                               }
                               & .fn {
                                 & a.g-profile {
