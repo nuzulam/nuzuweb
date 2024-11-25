@@ -1033,10 +1033,10 @@ cakra {display:none;}
                           }
                           & .post-footer.container {
                             & .post-footer-line-1{
-                              display: none;
+                              display: block;
                             }
                             & .post-footer-line-2{
-                              display: none;
+                              display: block;
                             }
                           }
                         }
