@@ -589,15 +589,15 @@ box-shadow: inset 0 0 0 0.5px var(--bg-line);
             & .name_info {
               margin-left: 10px;
               position: relative;
-              
               & h4 {
                 font-size: 20px;
                 margin: 0;
+		margin-bottom: 10px;
                 color: var(--text-title);
                 }
               & p {
                 font-size: 16px;
-                margin: 0;
+                margin: 5px 0px;
                 color: var(--text-defa);
 		& a {
                   color: var(--color-primary-three);
@@ -620,8 +620,10 @@ box-shadow: inset 0 0 0 0.5px var(--bg-line);
   
   border-bottom: 0px #8DFFA5 solid;
       & h4 {
+	font-size: 18px;
         color: var(--text-title);
         margin: 0;
+	margin-bottom: 10px;
         }
       & .social-media-link {
            display: flex;
