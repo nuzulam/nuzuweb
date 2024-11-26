@@ -609,8 +609,8 @@ box-shadow: inset 0 0 0 0.5px var(--bg-line);
                   border-radius: 4px;
                   position: absolute;
                  display: block;
-      }
                 }
+              }
               & p {
                 font-size: 16px;
                 margin: 5px 0px;
@@ -1092,6 +1092,7 @@ cakra {display:none;}
                             & .post-author {
                               margin-right: 10px;
                               & .post-author-label {
+			        color: var(--text-defa);
                                 text-transform: capitalize;
                               }
                               & .fn {
@@ -1104,8 +1105,9 @@ cakra {display:none;}
                             }
                             & .post-timestamp {
                               font-style: normal;
+			      color: var(--text-defa);
                               & .timestamp-link {
-                                color: red;
+                                color: var(--color-primary-one);
                               }
                             }
                           }
