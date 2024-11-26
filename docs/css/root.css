@@ -10,7 +10,13 @@
   --font-inter: 'Inter' , sans-serif;
   --font-italic: 'Playfair Display' , serif;
   }
+
+
 .theme-light {
+  --color-primary-one: #662de0;
+  --color-primary-two: #7941f2;
+  --color-primary-three: #FF00FF;
+  
   --bg-body: #EEF5FF;
   --bg-bars: #EEF5FF;
   --bg-page: #EAEEF6;
@@ -25,7 +31,13 @@
   --text-paragraph: #191919;
   --post-icon: #1C274C;
   }
+
+
 .theme-dark {
+  --color-primary-one: #1e90ff;
+  --color-primary-two: #59a5f0;
+  --color-primary-three: #8dffa5;
+  
   --bg-body: #030B18;
   --bg-bars: #030B18;
   --bg-page: #0B101A;
