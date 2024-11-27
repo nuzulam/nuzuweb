@@ -23,10 +23,14 @@
   --bg-view: #dae2eb;
   --bg-view-hover: #aabbcc;
   --bg-line: #6a76a8;
+  --bg-page-footer: #cacefa;
+  --bg-page-footer-end: #8189fc;
+
   
   --text-logo: #1C274C;
   --text-defa: #111;
   --text-title: #1C274C;
+  --text-post: #2f3752;
   --text-title-post: #111111;
   --text-paragraph: #191919;
   --post-icon: #1C274C;
@@ -44,11 +48,13 @@
   --bg-view: #2c3e50;
   --bg-view-hover: #112233;
   --bg-line: #cadced;
-  
+  --bg-page-footer: #0e0d29;
+  --bg-page-footer-end: #060521;
   
   --text-logo: #4481e3;
   --text-defa: #fff;
   --text-title: #D9E7FD;
+  --text-post: #bad1f5;
   --text-title-post: #FFFFFF;
   --text-paragraph: #F1F1F1;
   --post-icon: #D9E7FD;
