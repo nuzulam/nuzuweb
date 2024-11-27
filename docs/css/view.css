@@ -1093,6 +1093,7 @@ cakra {display:none;}
                             & .post-author {
                               margin-right: 10px;
                               & .post-author-label {
+				font-size: 16px;
 			        color: var(--text-defa);
                                 text-transform: capitalize;
                               }
@@ -1105,6 +1106,7 @@ cakra {display:none;}
                               }
                             }
                             & .post-timestamp {
+			      font-size: 16px;
                               font-style: normal;
 			      color: var(--text-defa);
                               & .timestamp-link {
@@ -1276,10 +1278,10 @@ cakra {display:none;}
                           }
                           & .post-footer.container {
                             & .post-footer-line-1{
-                              display: block;
+                              display: none;
                             }
                             & .post-footer-line-2{
-                              display: block;
+                              display: none;
                             }
                           }
                         }
