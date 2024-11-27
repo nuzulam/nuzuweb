@@ -31,6 +31,7 @@
   --text-defa: #111;
   --text-title: #1C274C;
   --text-post: #2f3752;
+  --text-list: #2f3752;
   --text-title-post: #111111;
   --text-paragraph: #191919;
   --post-icon: #1C274C;
@@ -55,7 +56,7 @@
   --text-defa: #fff;
   --text-title: #D9E7FD;
   --text-post: #d8d8eb;
-  --text-list: #d8d8eb
+  --text-list: #d8d8eb;
   --text-title-post: #FFFFFF;
   --text-paragraph: #F1F1F1;
   --post-icon: #D9E7FD;
