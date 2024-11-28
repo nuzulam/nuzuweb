@@ -753,6 +753,35 @@ display: grid;
   }
 
   @media (max-width: 1007px) {
+    &.vershow {
+   /* height: 100vh;
+    max-height: 100vh;
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden;*/
+      & .page {
+        & .blog-name {
+	  & .section, & #header {
+            & .widget, & HTML {
+	      & .widget-content {
+                & .section-navigasi {
+                  & .content-navigasi {
+                    & .menu-boxs {
+                      & button.menu-open {
+                        display: none;
+                      }
+                      & button.menu-close {
+                        display: flex;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+	  }
+        }
+      }
+    }
     & .page {
       & .blog-name {
         & .section, & #header {
