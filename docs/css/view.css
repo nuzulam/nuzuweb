@@ -466,50 +466,53 @@ box-shadow: inset 0 0 0 0px var(--bg-line);
               }
             }
          }
-        }
-           &:hover,&:focus {
-             width: 400px;
-             max-width: 100%;
-            /* background: navy;*/
-             transition: 0.5s;
-             & .search {
-               width: 250px;
-               & #search_top {
-                 width: 250px;
-                 & form.searchbox {
-	               width: 250px;
-                   & .searchbox__wrapper {
-                     width: 250px;
-                   & input.searchbox__input {
-                     top: 0px;
-             left: 0px;
-                     padding: 0px 50px 0px 10px;
-                     width: 250px;
-                     z-index: 0;
-                     height: 40px;
-                     border-radius: 5px;
-box-shadow: inset 0 0 0 0.5px var(--bg-line);
-                   }
-                 }
-               }
-             }
-           }
-           & ~ .logo{display:none;}
-           & ~ .overbox{display:block;}
-           }
-         }
-       }
-     }
-   }
- }
+                      }
+                      &:hover,&:focus {
+                        width: 400px;
+                        max-width: 100%;
+                     /* background: navy;*/
+                        transition: 0.5s;
+                        & .search {
+                          width: 250px;
+                          & #search_top {
+                            width: 250px;
+                            & form.searchbox {
+	                      width: 250px;
+                              & .searchbox__wrapper {
+                                width: 250px;
+                                & input.searchbox__input {
+                                  top: 0px;
+                                  left: 0px;
+                                  padding: 0px 50px 0px 10px;
+                                  width: 250px;
+                                  z-index: 0;
+                                  height: 40px;
+                                  border-radius: 5px;
+                                  box-shadow: inset 0 0 0 0.5px var(--bg-line);
+                                }
+                              }
+                            }
+                          }
+                        }
+                        & ~ .logo{display:none;}
+                        & ~ .overbox{display:block;}
+                      }
+                    }
+                  }
+                }
+              }
+            }
 	  }
 	}
       }
     }
     & .page_body {
-      min-height: 100em;
+      min-height: 100vh;
       margin: 0;
+      padding: 0px;
+      padding-top: 60px;
       margin-left: 300px;
+      box-sizing: border-box;
       width: calc(100% - 300px);
       max-width: calc(100% - 300px);
       position: relative;
