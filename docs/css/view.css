@@ -140,6 +140,21 @@ body.version-1-3-3 {
                         height: 40px;
                         transition: 0.5s;
                       }
+		      & logo.logonet {
+                        top: 0px;
+                        border-radius: 50%;
+                        height: 40px;;
+                        width: 40px;
+                        min-height: 40px;
+                        min-width: 40px;
+                        background-color: var(--logo-nuzu);
+                        margin: 0px 10px 0px 3px;
+                        border: 0px var(--bg-bars) solid;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        position: relative;
+                        cursor: pointer;
+                      }
                       & span {
                         color: var(--bg-logo);
                         font-size: 30px;
