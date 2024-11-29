@@ -1083,6 +1083,8 @@ cakra {display:none;}
         & .centered-bottom {
           & main.main-container {
             & .main,& .section {
+	      width: 100%;
+              max-width: 100%;
               & .blog-posts,& .hfeed,& .container {
                 display: grid;
                 grid-gap: 10px;
@@ -1113,6 +1115,7 @@ cakra {display:none;}
                     background-clip: padding-box; 
                     & .post-wrapper {
                       max-width: calc(100% - 4px);
+		      min-width: 250px;
                       margin: 0px;
                       border-radius: 5px;
                       border: 2px transparent solid;
