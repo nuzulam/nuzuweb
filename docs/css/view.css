@@ -1140,23 +1140,27 @@ cakra {display:none;}
                             & .post-author {
                               margin-right: 10px;
                               & .post-author-label {
-				font-size: 16px;
+				font-size: 15px;
 			        color: var(--text-defa);
                                 text-transform: capitalize;
                               }
                               & .fn {
                                 & a.g-profile {
+				  margin-left: 5px;
                                   & span {
-            
+                                  color: #570963;
+				  font-size: 15px;
                                   }
                                 }
                               }
                             }
                             & .post-timestamp {
-			      font-size: 16px;
+			      font-size: 15px;
                               font-style: normal;
 			      color: var(--text-defa);
                               & .timestamp-link {
+				margin-left: 5px;
+				font-size: 15px;
                                 color: var(--color-primary-one);
                               }
                             }
