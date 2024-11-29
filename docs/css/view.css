@@ -538,7 +538,7 @@ box-shadow: inset 0 0 0 0px var(--bg-line);
       max-width: calc(100% - 300px);
       box-sizing: border-box;
       font-family: var(--font-inter);
-      background-color: var(--bg-page-footer);
+      background-color: #b6e0fa;
       & .widget, & .HTML {
         & .widget-content {
           & .footer-container {
