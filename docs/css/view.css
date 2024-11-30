@@ -1137,21 +1137,20 @@ cakra {display:none;}
                           }
                         }
                         & .post-header {
-                        
                           & .post-header-line-1 {
                             & .post-author {
-                              margin-right: 10px;
-                              & .post-author-label {
-				font-size: 15px;
-			        color: var(--text-defa);
-                                text-transform: capitalize;
-                              }
-                              & .fn {
-                                & a.g-profile {
-				  margin-left: 5px;
-                                  & span {
-                                  color: #570963;
-				  font-size: 15px;
+                               margin-right: 10px;
+                               & .post-author-label {
+				 font-size: 15px;
+			         color: var(--text-defa);
+                                 text-transform: capitalize;
+                               }
+                               & .fn {
+                                 & a.g-profile {
+				   margin-left: 5px;
+                                   & span {
+                                     color: #570963;
+				     font-size: 15px;
                                   }
                                 }
                               }
@@ -1161,10 +1160,21 @@ cakra {display:none;}
                               font-style: normal;
 			      color: var(--text-defa);
                               & .timestamp-link {
-				margin-left: 5px;
-				font-size: 15px;
-                                color: var(--color-primary-one);
-                              }
+                                margin-left: 5px;
+                                padding: 4px 5px;
+                                font-size: 14px;
+                                 box-sizing: border-box;
+                                  border: 0.5px var(--bg-line) solid;
+                                  border-radius: 3px;
+                                  background: rgba(102,204, 255,0.2);
+				    & .published {
+                                      color: #002538;    
+				      letter-spacing: 1px; 
+			              font-family: var(--font-italic);     
+                                    }
+                                  }
+                                }
+			      }
                             }
                           }
                         }
