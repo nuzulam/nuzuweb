@@ -633,9 +633,9 @@ box-shadow: inset 0 0 0 0px var(--bg-line);
               & p {
                 font-size: 16px;
                 margin: 5px 0px;
-                color: var(--text-defa);
+                color: var(--text-list);
 		& a {
-                  color: var(--color-primary-three);
+                  color: var(--text-list);
 		}
                 }
               }
@@ -725,7 +725,7 @@ display: grid;
         margin:0;
         }
       & a {
-        color: var(--text-defa);
+        color: var(--text-list);
         font-size: 14px;
         font-weight: 700;
         padding: 3px 0px;
@@ -747,7 +747,7 @@ display: grid;
                 justify-content: start;
                 & span {
                   left: 25px;
-                  color: var(--text-defa);
+                  color: var(--text-list);
                   font-size: 13px;
                   font-weight: 300;
                   position: relative;
