@@ -143,13 +143,13 @@ body.version-1-3-3 {
 		      & div.logonet {
                         top: 0px;
                         border-radius: 50% 50% 0% 0%;
-                        height: 40px;
+                        height: 36px;
                         width: 40px;
-                        min-height: 40px;
+                        min-height: 36px;
                         min-width: 40px;
                         background-color: var(--logo-nuzu);
                         margin: 0px 10px 0px 3px;
-                        border: 0px var(--bg-bars) solid;
+                        border-bottom: 4px #ff9869 solid;
                         background-size: cover;
                         background-repeat: no-repeat;
                         position: relative;
@@ -176,6 +176,7 @@ body.version-1-3-3 {
                         bottom: 2px;
                         width: 180px;
                         height: 2px;
+			display: none;
                         position: absolute;
                         background: #ff9869;
                         border-radius: 20px;
