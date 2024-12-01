@@ -10,10 +10,15 @@
   --font-inter: 'Inter' , sans-serif;
   --font-italic: 'Playfair Display' , serif;
   --logo-nuzulam: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyIIXDd7ny6tpxADqTRp82udwcKPj1UIhFS2VPgEs5Sdx0ajwP1NmI3DrPkrXrFlb3Cj_1uFSJLHqP0zcb5YJNjsubG98xecYjpN8WRDkBD6Q76G4lR0ETbQZIKnr_lvSy4AhNrfcOG56YrilX7oxy3N_2XZ66EURBiiHnfOUmts_objjVDwnROIhMwYXo/s1600/imageedit_1_9814179293.png);
+
+  
+  --opacity-icon: 0.5;
+  --line-size-icon: 1.5;
 }
 
 
 .theme-light {
+  --color-icon: #1C274C;
   --color-primary-one: #662de0;
   --color-primary-two: #7941f2;
   --color-primary-three: #FF00FF;
@@ -40,6 +45,7 @@
 
 
 .theme-dark {
+  --color-icon: #D9E7FD;
   --color-primary-one: #1e90ff;
   --color-primary-two: #59a5f0;
   --color-primary-three: #8dffa5;
