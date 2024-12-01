@@ -56,7 +56,7 @@ body.version-1-3-3 {
                 align-items: center;
                 justify-content: space-between;
                 flex-direction: row;
-                padding: 0px 5px;
+                padding: 0px 10px;
                 box-sizing: border-box;
                 & .menu-boxs,
                 & .list-boxs {
