@@ -1106,7 +1106,6 @@ cakra {display:none;}
                 width: 100%;
                 max-width: 100%;
                 box-sizing: border-box;
-                grid-template-columns: repeat(3, 1fr);
                 align-items: start;
                 justify-items: start;
 		& article.post-outer-container {
@@ -1266,7 +1265,7 @@ cakra {display:none;}
             & main.main-container {
               & .main,& .section {
                 & .blog-posts,& .hfeed,& .container {
-		  grid-template-columns: repeat(2, 1fr);
+		  
 		}
 	      }
 	    }
@@ -1283,7 +1282,7 @@ cakra {display:none;}
             & main.main-container {
               & .main,& .section {
                 & .blog-posts,& .hfeed,& .container {
-		  grid-template-columns: 1fr;
+		  
 		}
 	      }
 	    }
