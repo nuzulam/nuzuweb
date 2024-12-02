@@ -1081,10 +1081,22 @@ cakra {display:none;}
           }
         }
         & .centered-bottom {
+	  margin: 0;
+	  padding: 0;
+	  width: 100%;
+          max-width: 100%;
           & main.main-container {
+	    margin: 0;
+	    padding: 0;
+	    width: 100%;
+            max-width: 100%;
             & .main,& .section {
+	      margin: 0;
+	      padding: 0;
 	      width: 100%;
               max-width: 100%;
+	      display: block;
+	      box-sizing: border-box;
               & .blog-posts,& .hfeed,& .container {
                 display: grid;
                 grid-gap: 10px;
@@ -1100,6 +1112,9 @@ cakra {display:none;}
 		& article.post-outer-container {
                   margin: 0px;
                   display: block;
+		  width: 100%;
+                  height: auto;
+                  max-width: 100%;
                   /*background: navy;*/
                   & .post-outer {
                     width: 100%;
