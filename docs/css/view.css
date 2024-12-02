@@ -746,7 +746,7 @@ display: grid;
                     display: flex;
                     align-items: center;
                     justify-content: start;
-		    background-color: var(--bg-footer);
+		    background-color: var(--bg-footer-end);
                     & span {
 		      color: var(--text-list);
                       left: 25px;
