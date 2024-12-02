@@ -29,8 +29,8 @@
   --bg-view: #dae2eb;
   --bg-view-hover: #aabbcc;
   --bg-line: #6a76a8;
-  --bg-page-footer: #cacefa;
-  --bg-page-footer-end: #8189fc;
+  --bg-footer: #cacefa;
+  --bg-footer-end: #8189fc;
 
   
   --text-logo: #1C274C;
@@ -56,8 +56,8 @@
   --bg-view: #2c3e50;
   --bg-view-hover: #112233;
   --bg-line: #cadced;
-  --bg-page-footer: #0e0d29;
-  --bg-page-footer-end: #060521;
+  --bg-footer: #0e0d29;
+  --bg-footer-end: #060521;
   
   --text-logo: #4481e3;
   --text-defa: #fff;
