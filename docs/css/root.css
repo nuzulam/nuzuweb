@@ -27,8 +27,10 @@
   --bg-bars: #EEF5FF;
   --bg-page: #EAEEF6;
   --bg-view: #dae2eb;
+  --bg-focus: #d5e0eb;
   --bg-view-hover: #aabbcc;
   --bg-line: #6a76a8;
+  --bg-line-focus: #075af5;
   --bg-footer: #cacefa;
   --bg-footer-end: #8189fc;
 
@@ -54,8 +56,10 @@
   --bg-bars: #030B18;
   --bg-page: #0B101A;
   --bg-view: #2c3e50;
+  --bg-focus: #1C274C;
   --bg-view-hover: #112233;
   --bg-line: #cadced;
+  --bg-line-focus: #075af5;
   --bg-footer: #0e0d29;
   --bg-footer-end: #060521;
   
